@@ -1,0 +1,47 @@
+header {
+  background: white;
+  position: fixed;
+  height: 110px;
+  width: 100vw;
+  z-index: 2;
+  box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+}
+
+.basket__img {
+  height: 40px;
+}
+
+.header__info {
+  position: fixed;
+  bottom: 0;
+  color: red;
+}
+
+.header__logout {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+}
+
+.header__button {
+  @include center;
+  height: 100%;
+}
+
+.header__basket {
+  @include center;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  height: 100%;
+  width: 100px;
+}
+
+@media (max-width: 420px) {
+
+  .header__button {
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+}

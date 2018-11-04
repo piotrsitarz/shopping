@@ -1,0 +1,14 @@
+.summary__title {
+  @include center;
+  justify-content: center;
+}
+
+button.summary__button {
+  margin: 70px auto;
+  display: flex;
+}
+
+h1.summary__heading {
+  text-align: center;
+  margin-top: 100px;
+}

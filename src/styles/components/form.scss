@@ -1,0 +1,38 @@
+.form__container {
+  @include center;
+  height: 100vh;
+}
+
+.form__button {
+  width: 100%;
+}
+
+.form__button--margin-top {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.form__button--margin-bottom {
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+.form__card {
+  min-height: 400px;
+}
+
+.form__input {
+  height: 80px;
+  position: relative;
+}
+
+.form__input input {
+  position: absolute;
+  bottom: 20px;
+  height: 35px;
+}
+
+.form__warning {
+  color: red;
+  font-style: italic;
+}

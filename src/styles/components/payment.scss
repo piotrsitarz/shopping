@@ -1,0 +1,12 @@
+img.payment__img{
+  @include title-image;
+}
+
+.payment__title {
+  @include title-wrapper;
+  justify-content: center;
+}
+
+.payment__button {
+  @include confirm-button;
+}

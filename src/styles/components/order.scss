@@ -1,0 +1,24 @@
+img.order__image {
+  @include title-image;
+}
+
+.order__item {
+  width: 100%;
+  text-align: center;
+}
+
+.order__title {
+  @include title-wrapper;
+}
+
+.order__total-price {
+  text-align: end;
+  color: #6c757d;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.order__button {
+  @include confirm-button;
+}

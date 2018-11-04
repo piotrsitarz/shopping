@@ -1,0 +1,31 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(to top, #93EDC7, #1CD8D2);
+  background: linear-gradient(to top, #93EDC7, #1CD8D2);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.container {
+  padding-top: 140px;
+}
+
+.container-form {
+  padding-top: 240px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+@mixin center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin title-image {
+  height: 50px;
+  padding-right: 20px;
+}
+
+@mixin title-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-bottom: 20px
+}
+
+@mixin confirm-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+img.delivery__img {
+  @include title-image;
+}
+
+.delivery__title {
+  @include title-wrapper;
+}
+
+.delivery__button {
+  @include confirm-button;
+}

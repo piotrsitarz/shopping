@@ -23,8 +23,6 @@ const DeliveryPage = (props) => (
 );
 
 const mapStateToProps = (state) => {
-  console.log("state",state);
-  console.log("state user", state.user);
   return {
     user: state.user
   };
